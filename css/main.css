@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -19,12 +18,10 @@
 /* Header */
 .header_list {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .header_list li {
     margin-left: 20px;
-    /* width: 30%; */
 
 }
 
@@ -61,11 +58,6 @@
     border-radius: 50%;
 }
 
-.header2_sub {
-    display: flex;
-    justify-content: space-around;
-}
-
 .header2_right {
     display: flex;
     text-align: center;
@@ -99,7 +91,7 @@
     width: 5%;
     margin: auto;
     opacity: 1;
-    border-bottom: 1px solid #5252f3;
+    border: 1px solid #5252f3;
 }
 
 .start_p {
@@ -134,11 +126,14 @@
 }
 
 .about_cv a {
+    display: inline-block;
     padding: 10px 25px;
     font-size: 14px;
     text-decoration: none;
     color: #fff;
+    margin-top: 3px;
     background-color: #0000ff;
+    border-radius: 15px;
 }
 /* Services */
 .serv_cont{
@@ -152,3 +147,51 @@
 .serv_cont p{
     padding: 5px;
 }
+
+/* My Resume */
+.resume_cont{
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #d1cece ; 
+    padding: 10px;
+    margin-left: 20px;
+}
+.resume_icon{
+    display: flex;
+    margin:20px 0 0 20px ;
+}
+.resume_icon i{
+    font-size: 25px;
+    color: #5252f3;
+}
+.resume_icon h5
+{
+    font-size: 16px;
+}
+.resume_icon p{
+    font-size: 13px;
+    color: #808080;
+}
+.res_cont1 h1{
+    padding-left: 20px;
+}
+.res_cont1 span{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #5252f3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin:0 0 10px 20px ;
+}
+.res4{
+    margin-top: -60px;
+}
+.res_cont2{
+    padding: 20px;
+}
+.res_cont2 p{
+    color: #808080;
+    font-size: 16px;  
+}
+/*  */
